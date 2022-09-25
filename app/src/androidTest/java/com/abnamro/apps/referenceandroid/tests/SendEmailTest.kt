@@ -23,8 +23,8 @@ class SendEmailTest : BaseTest() {
 
     //Test clicks on Mailbutton through use of searching for id and action click. Comes from page object class MailScreen
     @Test
-    fun testClickMailButton() {
-        MailScreen.clickMailButton()
+    fun testShowSendMailText() {
+        MailScreen.showSendMailText()
 
     }
 }
