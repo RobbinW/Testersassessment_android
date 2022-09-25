@@ -1,4 +1,4 @@
 package com.abnamro.apps.referenceandroid.pages
 
-class BaseScreen {
+open class BaseScreen {
 }

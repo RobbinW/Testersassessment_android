@@ -8,6 +8,7 @@ import com.abnamro.apps.referenceandroid.MainActivity
 import com.abnamro.apps.referenceandroid.R
 import org.junit.Rule
 import org.junit.Test
+import com.abnamro.apps.referenceandroid.pages.MailScreen
 
 /**
  *  Script in Kotlin.
@@ -15,16 +16,15 @@ import org.junit.Test
  *
  */
 
-class MainTest {
+//Send Email Test extended by BaseTest
+class SendEmailTest : BaseTest() {
 
-    @Rule
-    @JvmField
-    val activity = ActivityScenarioRule(MainActivity::class.java)
+    var MailScreen = MailScreen()
 
-    //Test clicks on Mailbutton through use of searching for id and action click
+    //Test clicks on Mailbutton through use of searching for id and action click. Comes from page object class MailScreen
     @Test
     fun testClickMailButton() {
-        onView(withId(R.id.fab)).perform(ViewActions.click())
+        MailScreen.clickMailButton()
 
     }
 }
