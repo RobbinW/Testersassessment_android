@@ -1,10 +1,11 @@
-package com.abnamro.apps.referenceandroid
+package com.abnamro.apps.referenceandroid.tests
 
-import androidx.test.espresso.Espresso
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.rules.ActivityScenarioRule
+import com.abnamro.apps.referenceandroid.MainActivity
+import com.abnamro.apps.referenceandroid.R
 import org.junit.Rule
 import org.junit.Test
 
