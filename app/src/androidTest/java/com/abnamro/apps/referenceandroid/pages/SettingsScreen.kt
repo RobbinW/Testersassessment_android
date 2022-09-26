@@ -13,7 +13,7 @@ class SettingsScreen {
 
     fun clickSettingsButton() {
 
-        //This opens the settings menu bar
+        //This opens the settings menu bar. The settings menu is not part of the activity_main layout. By using this action it opens the menu that is present.
         openActionBarOverflowOrOptionsMenu(getInstrumentation().targetContext)
         //Clicks menu
         onView(withText(settingsMenuTitle)).perform(click())

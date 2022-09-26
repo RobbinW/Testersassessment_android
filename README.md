@@ -1,3 +1,13 @@
+The following has been implemented for the test assignment:
+- Use of Kotlin. Before my experience has been mostly java trainings.
+  I found Kotlin to be easy of use.
+- Espresso. Native testing framework for Android
+- Page Object Model (POM). In order to keep the code clean POM can be used to, for example, reuse functions for multiple tests.
+  The Reference Android app is very minimal. Considering that in the future the app's functionality will broaden I have setup multiple page objects in the pages package.
+  The tests make use of the locators and functions. Each test is further extended with the BaseTest which setups the start of a test.
+- TODO: The implementation of BDD Cucumber will help business identify which tests are available.
+
+
 # Test assignment
 
 We are looking for Automation Engineers that have the mindset "only the sky is the limit" and "automation doesn't stop at testing, it's just a beginning!" ;)
