@@ -5,11 +5,11 @@ import org.junit.Test
 
 class OpenSettingsTest : BaseTest() {
 
-    var SettingsScreen = SettingsScreen()
+    var settingsScreen = SettingsScreen()
 
     @Test
     fun testClickSettingsButton() {
-        SettingsScreen.clickSettingsButton()
+        settingsScreen.clickSettingsButton()
     }
 
 }
