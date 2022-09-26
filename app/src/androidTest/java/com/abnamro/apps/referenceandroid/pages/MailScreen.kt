@@ -11,8 +11,8 @@ import com.abnamro.apps.referenceandroid.R
 class MailScreen : BaseScreen() {
 
     //variables, used for functions
-    var mailButton = onView(withId(R.id.fab))
-    var mailText = onView(withId(R.id.snackbar_text))
+    private var mailButton = onView(withId(R.id.fab))
+    private var mailText = onView(withId(R.id.snackbar_text))
 
     //function click Mail Button
     fun showSendMailText() {

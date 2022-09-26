@@ -5,7 +5,7 @@ import org.junit.Test
 
 class HomeTest : BaseTest(){
 
-    var homeScreen = HomeScreen()
+    private var homeScreen = HomeScreen()
 
     @Test
     fun testShowHelloWorldText() {

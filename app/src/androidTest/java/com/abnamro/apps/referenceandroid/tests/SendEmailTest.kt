@@ -1,7 +1,10 @@
 package com.abnamro.apps.referenceandroid.tests
 
+import androidx.test.ext.junit.rules.ActivityScenarioRule
+import com.abnamro.apps.referenceandroid.MainActivity
 import org.junit.Test
 import com.abnamro.apps.referenceandroid.pages.MailScreen
+import org.junit.Rule
 
 /**
  *  Script in Kotlin.

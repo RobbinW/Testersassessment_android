@@ -9,7 +9,7 @@ import androidx.test.espresso.matcher.ViewMatchers.*
 class HomeScreen : BaseScreen() {
 
     //variables, used for functions
-    var helloWorldText = onView(withText("Hello World!"))
+    private var helloWorldText = onView(withText("Hello World!"))
 
     //function click Mail Button
     fun showHelloWorldText() {
